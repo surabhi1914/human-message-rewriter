@@ -1,0 +1,38 @@
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual Environments
+venv/
+.env/
+env/
+
+# Environment Variables
+.env
+
+# Data Files
+data/raw
+data/processed
+
+# Model outputs and checkpoints
+outputs/
+adapters/
+models/
+checkpoints/
+
+# Large model files
+*.bin
+*.pt
+*.pth
+*.safetensors
+
+# OS files
+.DS_Store
+Thumbs.db
+
