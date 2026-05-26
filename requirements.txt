@@ -1,0 +1,10 @@
+torch  # torch helps in loading model into the CPU/GPU, run the model inference and handle tensors(data format that neural networks use) and train or fine tune the model
+transformers # main hugging face library for using rpe trained languge models
+# torch is the engine. Transformers gives us the car, but PyTorch makes it move.
+datasets # dataset is a hugging face library that helps in loading the JSONL files, manage the train/validation/text splits, converts the data into model-ready format and prepare examples for training later
+accelerate # hugging face python code. It helps with  CPU/GPU handling, model loading, efficient inference setup and making fine tune easier
+pandas # pandas is a library for data manipulation and analysis. It provides data structures like DataFrames that make it easy to work with structured data, perform operations like filtering, grouping, and aggregation, and handle missing data effectively.
+tqdm # helps in progress bar
+jupyter #creates and runs the notebooks
+ipykernel #connects out python environment to the jupyter notebook
+scikit-learn # general machine learning utility library. Helps with giving us useful ml tools even when we are not training a traditional ML model like in our case, it would be train_test_split
