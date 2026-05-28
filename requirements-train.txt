@@ -1,0 +1,11 @@
+torch
+transformers
+datasets
+accelerate
+peft #Parameter Efficient Fine-Tuning - PEFT (used for LoRA fine tuning) enables fine-tuning large language models by updating only a small subset of parameters instead of the entire model. 
+trl # Transformer Reinforcement Learning - provides tools for training language models using reinforcement learning and human feedback.
+bitsandbytes # reduces model memory usage by applying low-bit quantization (like 8-bit or 4-bit weights).
+pandas
+tqdm
+scikit-learn
+pyyaml #is used to read and write YAML configuration files in Python.
